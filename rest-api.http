@@ -1,0 +1,11 @@
+POST http://localhost:8181/restconf/operations/hello:hello-world
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+Authorization: Basic admin admin
+
+{"input": {
+    "name": "Andrew"
+  }
+}
+###
